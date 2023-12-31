@@ -1,0 +1,30 @@
+# Ignore compiled files
+*.class
+*.jar
+*.war
+*.ear
+
+# Ignore dependencies
+/target/
+/node_modules/
+/demo-app/node_modules
+
+# Ignore IDE-specific files
+.idea/
+.vscode/
+
+# Ignore logs and temporary files
+/logs/
+/temp/
+/tmp/
+
+# Ignore Data directory
+/zookeeper-data/
+/kafka-data/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore environment-specific files
+.env
